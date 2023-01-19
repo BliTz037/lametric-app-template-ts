@@ -4,7 +4,6 @@
   "description": "A Lametric App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "yarn run build && node dist/index.js",
     "build": "npx tsc",
     "start:dev": "ts-node-dev index.ts"
